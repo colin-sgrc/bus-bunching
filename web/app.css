@@ -1,0 +1,112 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    color: #fdf6e3;
+}
+
+.claro .dijitSplitContainer-dijitContentPane, .claro .dijitBorderContainer-dijitContentPane {
+    color: #002b36;
+}
+
+#timeInfo {
+font-size:smaller;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    overflow:hidden;
+    border:none;
+    font-size:larger;
+}
+
+.dijitBorders {
+    margin: 5px 5px 5px 5px;
+    border: solid thin #9CAA9C;
+    -moz-border-radius: 4px;
+}
+
+.labelText {
+    color: #002b36;
+    font-size: 12pt;
+    font-family: "Tahoma";
+    margin: 5px;
+}
+
+.headerText {
+    color: #002b36;
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: "Tahoma";
+}
+
+span {
+    font-style: italic;
+}
+
+
+#graph circle {
+    stroke-width: 2;
+}
+
+#graph {
+    overflow-x:hidden;
+}
+
+#graph .bunches {
+    stroke: red;
+    stroke-opacity: 0.2;
+    stroke-width:1;
+    fill-opacity: 0.1;
+    fill: red;
+}
+
+#graph .pred {
+    stroke: blue;
+    stroke-opacity: 0.2;
+    stroke-width:1;
+    fill-opacity: 0.1;
+    fill: blue;
+}
+
+#graph .axis path,
+#graph .axis line,
+#graph line {
+    stroke-width: 2;
+    shape-rendering: crispEdges;
+    fill: #002b36;
+}
+
+#graph .axis .tick text {
+    fill: #002b36;
+}
+
+#graph .grid .tick {
+    stroke: lightgrey;
+    opacity: 0.7;
+}
+#graph .grid path {
+      stroke-width: 0;
+}
+
+#map .bus {
+    stroke-linecap: round;
+    stroke-linejoin: round; 
+    stroke-width: 16pt;
+    stroke-opacity: 1;
+    opacity: 0.9;
+    fill-opacity: 1;
+}
+
+#predictionMap .bus {
+    stroke-linecap: round;
+    stroke-linejoin: round; 
+    stroke-width: 16pt;
+    stroke-opacity: 1;
+    opacity: 0.9;
+    fill-opacity: 1;
+}
